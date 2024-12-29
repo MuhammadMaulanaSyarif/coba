@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Jurnal dan Artikel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Jurnal dan Artikel</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#articles">Artikel</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Deskripsi singkat tentang diri Anda dan latar belakang Anda dalam menulis jurnal dan artikel.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Artikel</h2>
+        <article>
+            <h3>Judul Artikel 1</h3>
+            <p>Ringkasan atau deskripsi singkat tentang artikel ini.</p>
+            <a href="link-ke-artikel-1.html">Baca Selengkapnya</a>
+        </article>
+        <article>
+            <h3>Judul Artikel 2</h3>
+            <p>Ringkasan atau deskripsi singkat tentang artikel ini.</p>
+            <a href="link-ke-artikel-2.html">Baca Selengkapnya</a>
+        </article>
+        <!-- Tambahkan lebih banyak artikel sesuai kebutuhan -->
+    </section>
+
+    <footer id="contact">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+    </footer>
+</body>
+</html>
