@@ -1,46 +1,85 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Jurnal dan Artikel</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Portofolio Jurnal dan Artikel</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Tentang Saya</a></li>
-                <li><a href="#articles">Artikel</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+body {
+  background-image: url("latarbelakang.png.jpg"); /* The image used */
+  background-color: #8355115a; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color:darksalmon
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Deskripsi singkat tentang diri Anda dan latar belakang Anda dalam menulis jurnal dan artikel.</p>
-    </section>
+  }
+  
+  .header p {
+    font-size: 18px;
+    color:rgb(255, 255, 255)
+  }
+  
+  .content {
+    display: flex;
+    color:rgb(255, 255, 255)
+  }
+  
+  .profile {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:darksalmon
+  }
+  
+  .contact {
+    flex: 1;
+    color:rgb(255, 255, 255)
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:darksalmon
 
-    <section id="articles">
-        <h2>Artikel</h2>
-        <article>
-            <h3>Judul Artikel 1</h3>
-            <p>Ringkasan atau deskripsi singkat tentang artikel ini.</p>
-            <a href="link-ke-artikel-1.html">Baca Selengkapnya</a>
-        </article>
-        <article>
-            <h3>Judul Artikel 2</h3>
-            <p>Ringkasan atau deskripsi singkat tentang artikel ini.</p>
-            <a href="link-ke-artikel-2.html">Baca Selengkapnya</a>
-        </article>
-        <!-- Tambahkan lebih banyak artikel sesuai kebutuhan -->
-    </section>
-
-    <footer id="contact">
-        <h2>Kontak</h2>
-        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
-    </footer>
-</body>
-</html>
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin-bottom: 5px;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #007bff;
+    
+  }
